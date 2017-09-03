@@ -1,0 +1,8 @@
+[user]
+	email = stegmaier.felix@gmail.com
+	name = Felix Stegmaier
+	signingkey = CB976BCE
+[push]
+	default = simple
+[core]
+	excludesfile = ~/.gitignore_global
