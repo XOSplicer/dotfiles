@@ -22,3 +22,6 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export GOROOT="$HOME/Programs/go192"
+export PATH="$GOROOT/bin:$PATH"
+export GOPATH="$HOME/workspaces/go"

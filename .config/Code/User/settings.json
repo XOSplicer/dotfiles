@@ -98,5 +98,17 @@
     "wordcounter.count_chars": false,
     "wordcounter.count_words": true,
     "wordcounter.count_lines": false,
-    "wordcounter.readtime": false
+    "wordcounter.readtime": false,
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressUpdateNotice": false,
+      "suppressWelcomeNotice": true
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.authors.enabled": false
   }

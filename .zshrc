@@ -90,6 +90,7 @@ alias god="gnome-open"
 #alias fuck="thefuck"
 alias cd..="cd .."
 alias sudp="sudo"
+#alias ff="/home/felix/Programs/firefox/firefox"
 
 bindkey '^ ' autosuggest-accept
 
