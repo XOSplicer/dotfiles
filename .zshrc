@@ -53,6 +53,9 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
+# make sure to load custom zsh functions
+fpath+=~/.zfunk
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
