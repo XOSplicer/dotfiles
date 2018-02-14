@@ -44,25 +44,34 @@
       {
         "command": "pdflatex",
         "args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "-output-directory=build",
-        "%DOC%"
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-output-directory=build",
+          "%DOC%"
         ]
       }, {
-        "command": "biber",
+        "command": "bibtex",
         "args": [
-        "%DOC%"
+          "build/%DOCFILE%"
         ]
       }, {
         "command": "pdflatex",
         "args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "-output-directory=build",
-        "%DOC%"
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-output-directory=build",
+          "%DOC%"
+        ]
+      }, {
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-output-directory=build",
+          "%DOC%"
         ]
       }
     ],
