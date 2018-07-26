@@ -88,7 +88,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias cl="clear"
-alias god="gnome-open"
+hash gnome-open 2>/dev/null && alias god="gnome-open"
+hash exo-open 2>/dev/null && alias god="exo-open"
 #alias node="nodejs"
 #alias fuck="thefuck"
 alias cd..="cd .."
